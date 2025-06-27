@@ -1,0 +1,4 @@
+/home/nickfar20/sim/build/CMakeFiles/sim.dir
+/home/nickfar20/sim/build/CMakeFiles/Simulation.dir
+/home/nickfar20/sim/build/CMakeFiles/edit_cache.dir
+/home/nickfar20/sim/build/CMakeFiles/rebuild_cache.dir
