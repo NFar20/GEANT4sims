@@ -10,3 +10,5 @@
 ## uclatpc
 - This project is still in progress and will be created with the help of existing literature on G4 and CAD files of the TPC used by the Kamaha group at UCLA
 - The goal of this project is to create a simulation of the TPC prototype in Prof. Kamaha's lab at UCLA to eventually be implemented in G4VR as part of my research project for the Summer 2025 UCLA REU
+## future steps
+- I am currently working on a simulation of the TPC that only uses CAD files for the geometry imported using the CADMesh.hh header file designed by Christopher Poole
