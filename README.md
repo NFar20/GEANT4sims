@@ -12,3 +12,5 @@
 - The goal of this project is to create a simulation of the TPC prototype in Prof. Kamaha's lab at UCLA to eventually be implemented in G4VR as part of my research project for the Summer 2025 UCLA REU
 ## future steps
 - I am currently working on a simulation of the TPC that only uses CAD files for the geometry imported using the CADMesh.hh header file designed by Christopher Poole
+- The CAD files I am using can be found in the "UCLA TPC Parts" directory
+- CADmesh only works with ASCII .STL files, which all have names beginning with "A"; the other files in this directory are binary STL files
