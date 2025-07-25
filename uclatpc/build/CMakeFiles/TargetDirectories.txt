@@ -1,4 +1,0 @@
-/home/nickfar20/uclatpc/build/CMakeFiles/uclatpc.dir
-/home/nickfar20/uclatpc/build/CMakeFiles/Simulation.dir
-/home/nickfar20/uclatpc/build/CMakeFiles/edit_cache.dir
-/home/nickfar20/uclatpc/build/CMakeFiles/rebuild_cache.dir
