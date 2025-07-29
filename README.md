@@ -15,6 +15,7 @@
 - While CAD files can be easier to implement than manually designing geometries in C++, they increase the launch time for G4 and are attached to an irregular coordinate system, making it difficult and tedious to build geometries without overlaps
 - The CAD imports also seem to be imperfect in some cases, which can cause issues in certain simulations
 - CADmesh only works with ASCII .STL files, which all have names beginning with "A" and can be found in the uclatpc_CAD directory; the other files in this directory are binary STL files
+- Note that all of the code in this project is the same as the previous one, except for the "construction.cc" file
 ## future steps
 - The UCLA simulations both currently have issues modeling electron drift due to the way G4 handles electrons in an electric field, but these should hopefully be resolved soon
 - The final goal of these simulations is to visualize them in virtual reality using the G4VR app developed by Benjamin Jobilal
