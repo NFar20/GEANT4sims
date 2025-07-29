@@ -10,7 +10,12 @@
 ## uclatpc
 - This project is still in progress and will be created with the help of existing literature on G4 and CAD files of the TPC used by the Kamaha group at UCLA
 - The goal of this project is to create a simulation of the TPC prototype in Prof. Kamaha's lab at UCLA to eventually be implemented in G4VR as part of my research project for the Summer 2025 UCLA REU
+## uclatpc_CAD
+- This project models the same TPC as the previous one, except every part was imported as a CAD file via the "CADMesh.hh" header file developed by Christopher Poole
+- While CAD files can be easier to implement than manually designing geometries in C++, they increase the launch time for G4 and are attached to an irregular coordinate system, making it difficult and tedious to build geometries without overlaps
+- The CAD imports also seem to be imperfect in some cases, which can cause issues in certain simulations
+- CADmesh only works with ASCII .STL files, which all have names beginning with "A" and can be found in the uclatpc_CAD directory; the other files in this directory are binary STL files
 ## future steps
-- I am currently working on a simulation of the TPC that only uses CAD files for the geometry imported using the CADMesh.hh header file designed by Christopher Poole
-- The CAD files I am using can be found in the "UCLA TPC Parts" directory
-- CADmesh only works with ASCII .STL files, which all have names beginning with "A"; the other files in this directory are binary STL files
+- The UCLA simulations both currently have issues modeling electron drift due to the way G4 handles electrons in an electric field, but these should hopefully be resolved soon
+- The final goal of these simulations is to visualize them in virtual reality using the G4VR app developed by Benjamin Jobilal
+- This will be one of the first simulations used to test G4VR
